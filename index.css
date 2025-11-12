@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sub-hedding{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-boby{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card-btn{
+    background-color: greenyellow !important;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  gap: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.login{
+  display: flex;
+  /* padding-left: 148px; */
+
+}
+.btn-primary-submit{
+    background-color: rgb(210, 255, 143) !important;
+}
